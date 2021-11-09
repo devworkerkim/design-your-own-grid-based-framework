@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+	--gutter: 1rem;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+.khl-container {
+	width: 100vw;
+	white-space: nowrap;
+	font-size: 0;
+}
+
+.khl-container [class^="block"] {
+	font-size: 1rem;
+	white-space: normal;
+	border: 1px solid black;
+	/* margin: var(--gutter) calc(var(--gutter) / 2); */
+	margin: calc(var(--gutter) / 2);
+	display: inline-block;
+}
+.khl-container .block1 {
+	width: calc((100vw * 1 / 12) - var(--gutter));
+}
+.khl-container .block2 {
+	width: calc((100vw * 2 / 12) - var(--gutter));
+}
+.khl-container .block3 {
+	width: calc((100vw * 3 / 12) - var(--gutter));
+}
+.khl-container .block4 {
+	width: calc((100vw * 4 / 12) - var(--gutter));
+}
+.khl-container .block5 {
+	width: calc((100vw * 5 / 12) - var(--gutter));
+}
+.khl-container .block6 {
+	width: calc((100vw * 6 / 12) - var(--gutter));
+}
+.khl-container .block7 {
+	width: calc((100vw * 7 / 12) - var(--gutter));
+}
+.khl-container .block8 {
+	width: calc((100vw * 8 / 12) - var(--gutter));
+}
+.khl-container .block9 {
+	width: calc((100vw * 9 / 12) - var(--gutter));
+}
+.khl-container .block10 {
+	width: calc((100vw * 10 / 12) - var(--gutter));;
+}
+.khl-container .block11 {
+	width: calc((100vw * 11 / 12) - var(--gutter));;
+}
+.khl-container .block12 {
+	width: calc((100vw * 12 / 12) - var(--gutter));;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+p {
+	font-family: serif;
+}
