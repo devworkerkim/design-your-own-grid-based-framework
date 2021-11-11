@@ -1,0 +1,70 @@
+@import url('khl-grid12.css');
+
+:root {--gutter: 0px;}
+
+p, input {font-size: 13;}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+form {
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 1.25em;
+    margin-top: 1em;
+}
+form img {
+    margin: 0 .5em;
+}
+form input {
+    border: none;
+    border-bottom-right-radius: 1em;
+}
+
+.w50percent {width: 50%;}
+
+.h30 {height: 30px;}
+.h46 {height: 46px;}
+.h65 {height: 65px;}
+.h74 {height: 74px;}
+.h251 {height: 251px;}
+
+.float-l {float: left;}
+.clear-l {clear: left;}
+
+.align-r {text-align: right;}
+.vertalign-middle{vertical-align: middle;}
+
+.font18 {font-size: 18px;}
+.font24 {font-size: 24px;}
+.font28 {font-size: 28px;}
+.fontorangered {color: orangered;}
+.fontwhite {color: white;}
+
+.line-height1dot25em {line-height: 1.25em;}
+
+.paddot25em {padding: .25em;}
+.pad1em {padding: 1em;}
+.pad1em-l{padding-left: 1em;}
+.pad3em-b{padding-bottom: 3em;}
+
+.margindot25em {margin: .25em;}
+.margin1em {margin: 1em;}
+.margin1em-trb {margin: 1em 1em 1em 0;}
+.margin1em-tb {margin: 1em 0;}
+
+#main__resources1--download-info {
+    background-image: url(images/monitor-windows@2x.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 3em;
+}
+#main__resources1--download-info button {
+    width: 100%;
+    background-color: teal;
+    padding: .5em 1em;
+    border: 1px solid darkslategray;
+    margin-top: .5em;
+}
